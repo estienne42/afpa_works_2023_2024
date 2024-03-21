@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=PT+Sans+Narrow&display=swap');
+
+html {
+  background-color: #1b8b8f;
+  align-content: center;
+  line-height: 150%;
+  box-sizing: border-box;
+}
+
+header > nav {
+  display: flex;
+  background-color: #5e3d2e;
+  height: 50px;
+  justify-content: center;
+  font-size: 1.6em;
+  justify-content: space-evenly;
+  align-items: center;
+  font-family: pt sans narrow;
+}
+
+h2 {
+  background-color: #5e3d2e;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+header > img {
+  display: flex;
+  margin: 0 auto;
+}
+
+#l1, #l2, #l3 {
+  color:white;
+  text-decoration: none;
+}
+
+#l1:hover, #l2:hover, #l3:hover{
+  padding:12px;
+  background-color: #ffffff3a;
+}
+
+main {
+  display: flex;
+  font-family: open sans;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+main > section {
+  background-color: #457f87;
+}
+
+main > section > img{
+  border-radius: 20px;
+  padding-top: 5px;
+}
+
+main > aside {
+  background-color: white;
+  border-radius: 0 0 2px 2px;
+  padding: 15px;
+}
+
+@media main and (min-width : 1200px){
+  main > section {
+    flex: 70%;
+  }
+  main > aside {
+    flex: 30%;
+  }
+}
