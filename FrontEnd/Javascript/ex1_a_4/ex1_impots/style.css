@@ -1,0 +1,21 @@
+* {
+    border: 1px solid #ced4da;
+}
+
+body {
+    height: 100vh;
+    background-color: #FFF5EE;
+    color: black
+}
+
+main {
+    display: flex;
+    margin-left: 50vh;
+    margin-top: 5vh;
+}
+
+.label,
+.input {
+ display: flex;
+ padding : 10px;
+}
